@@ -28,5 +28,23 @@ public class Main {
             System.out.println(
                     "Three objects DO NOT point to the same memory location on the heap");
         }
+
+
+
+
+        x.s = (x.s).toUpperCase();
+
+
+        System.out.println("String from x is " + x.s);
+        System.out.println("String from y is " + y.s);
+        System.out.println("String from z is " + z.s);
+        System.out.println("\n");
+
+
+        z.s = (z.s).toLowerCase();
+
+        System.out.println("String from x is " + x.s);
+        System.out.println("String from y is " + y.s);
+        System.out.println("String from z is " + z.s);
     }
 }
